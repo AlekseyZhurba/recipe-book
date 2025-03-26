@@ -21,7 +21,7 @@ while IFS= read -r line; do
 done < "$file_name"
 
 # Ініціалізація рядка JSON
-str2json="}"
+str2json="{"
 
 # Обробка рядків
 for ((i = 0; i < ${#pars_data[@]}; i++)); do
